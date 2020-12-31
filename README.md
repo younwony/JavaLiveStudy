@@ -1,2 +1,2 @@
-# StudyLive
-StudyLive
+# JavaLiveStudy
+JavaLiveStudy
