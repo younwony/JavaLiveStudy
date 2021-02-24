@@ -75,5 +75,13 @@ class ExceptionTest {
             }
         }
     }
+    @Test
+    void throwsException() throws IllegalArgumentException, FileNotFoundException, ArithmeticException {
+        try {
+            int a = 4/0;
+        }catch (Exception e){
+            throw new ArithmeticException("int a = 4/0");
+        }
+    }
 
 }
