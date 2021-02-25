@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wony</groupId>
-    <artifactId>wony</artifactId>
+    <artifactId>JavaLiveStudy</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>wony</name>
+    <name>JavaLiveStudy</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

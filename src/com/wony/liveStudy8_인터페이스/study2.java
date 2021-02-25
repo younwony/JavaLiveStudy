@@ -1,6 +1,6 @@
 package com.wony.liveStudy8_인터페이스;
 
-public interface study2 {
+interface study2 {
 
     /* static */
     static void staticMethod(){

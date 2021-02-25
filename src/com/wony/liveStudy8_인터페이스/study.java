@@ -1,6 +1,6 @@
 package com.wony.liveStudy8_인터페이스;
 
-interface study {
+interface study extends study2{
 
     /* 상수 */
     String studyName = "study";
