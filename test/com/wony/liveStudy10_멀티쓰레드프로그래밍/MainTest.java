@@ -2,6 +2,11 @@ package com.wony.liveStudy10_멀티쓰레드프로그래밍;
 
 import org.junit.jupiter.api.Test;
 
+import java.io.BufferedOutputStream;
+import java.io.BufferedWriter;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
@@ -30,6 +35,12 @@ class MainTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    @Test
+    void buffered(){
+        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(System.out);
+        BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
     }
 
 }
